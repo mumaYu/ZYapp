@@ -1,0 +1,17 @@
+# POST http://127.0.0.1/comment HTTP/1.1
+# content-type: application/json
+
+# {
+#     "author": "liubing",
+#     "email": "2271608011@qq.com",
+#     "comment": "这是测是的内容adguydguaysduysayu",
+#     "comment_post_ID": "55592"
+# }
+
+POST http://127.0.0.1:8088/like HTTP/1.1
+content-type: application/json
+
+{
+    "postid": "3989690",
+    "type": "like"
+}
